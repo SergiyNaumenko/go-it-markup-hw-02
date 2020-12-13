@@ -204,12 +204,43 @@ header {
 footer {
     background-color: var(--background-hero-footer-color);
 }
-/* можливо доведеться створити для кнопок-посилань на другій сторінці*/
-/* зробити там href і в нього вставити кнопки секондарі */
-.button .primary {
 
+
+                /* Стили для portfolio.html */
+
+/* Butoons */
+
+.filter-btn{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: var(--title-text-color);
+}
+.filter-btn:hover,
+.filter-btn:focus{
+    color: var(--hero-text-color);
+    background-color: var(--accent-color);
 }
 
-/* Стили для portfolio.html */
-    
+                /* All offers */
+     
+.offers-list {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+
+    color: var(--title-text-color);
+}
+.heading {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.03em;
+
+    color: var(--primary-text-color);
+}    
 
